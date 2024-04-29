@@ -4,6 +4,9 @@ const alunos = ['João', 'Juliana', 'Ana', 'Caio', 'Lara', 'Marjorie', 'Guilherm
 
 //slice
 // alunos.slice(onde iniciar a divisão, onde termina) 
-
+let sala01 = alunos.slice(0,10);
+let sala02 = alunos.slice(10,20)
+console.log(sala01)
+console.log(sala02)
 
 //usando o alunos.length
